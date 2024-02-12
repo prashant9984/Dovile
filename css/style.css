@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nonito sans", sans-serif;
+}
+.navigation{
+    text-align: center;
+    padding-top: 45px;
+    padding: 30px;
+}
+.navigation img{
+    width: 100px;
+    margin-bottom: 35px;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 auto;
+}
+.navigation ul li{
+    list-style: none;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-family: 'Bodoni Moda', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+}
+.navigation .menu{
+    font-size: 30px;
+    color: rgb(69, 69, 69);
+    cursor: pointer;
+    display: none;
+}
+/* banner start */
+
+.banner-section{
+    width: 100%;
+    background-color: #FFF5F5;
+}
+.banner-section .inner{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-section .text-box{
+    width: 500px;
+
+}
+.banner-section .inner .text-box h1{
+    font-size: 65px;
+    font-weight: 900;
+    color: rgb(69, 69, 69);
+    font-family: 'Bodoni Moda',serif;
+}
+.banner-section .text-box p{
+    margin-top: 30px;
+    color: rgb(69, 69, 69);
+    font-size: 15px;
+    font-family: "Nonito sans", sans-serif;
+}
+.banner-section .text-box .btn{
+    width: 140px;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 16px;
+    background-color: rgb(69, 69, 69);
+    border: none;
+}
+.banner-section .text-box .btn a{
+    text-decoration: none;
+    color: #fff;
+}
+/* logo section */
+
+.logo-section{
+    width: 100%;
+    background-color: #fff;
+}
+.logo-section .inner{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    padding: 35px 0;
+    justify-content: space-between;
+}
+.logo-section .inner h1{
+    padding-left: 2%;
+    color: rgb(69, 69, 69);
+    font-family: 'Bodoni Moda',serif;
+}
+/* about section */
+
+.about-section{
+    width: 100%;
+    background-color: #FFF5F5;
+}
+.about-section .inner{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-section h1{
+    padding: 60px 0;
+    font-size: 50px;
+    font-family: 'Bodoni Moda', sans-serif;
+    color: rgb(69, 69, 69);
+}
+.about-section .inner p{
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    line-height: 25px;
+}
+/* service section */
+
+.service-section{
+    width: 100%;
+    background-color: #fff;
+}
+.service-section .inner{
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}
+.service-section .text-box{
+    margin-left: 120px;
+    width: 40%;
+}
+.service-section .image-box{
+    width: 40%;
+    height: auto;
+}
+.service-section .image-box img{
+    width: 100%;
+    height: 100%;
+}
+.service-section h1{
+    font-size: 50px;
+    color: rgb(69, 69, 69);
+    font-family: 'Bodoni Moda', sans-serif;
+    margin-bottom: 100px;
+}
+.service-section p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.service-section .btn{
+    width: 140px;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 16px;
+    background-color: rgb(69, 69, 69);
+    border: none;
+}
+.service-section .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', sans-serif;
+}
+
+/* contant section */
+
+.contant-section{
+    width: 100%;
+    background-color: #FFF5F5;
+}
+.contant-section .inner{
+    width: 1200px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.contant-section .ready{
+    padding: 80px 0;
+}
+.contant-section .ready h1{
+    font-size: 40px;
+    color: rgb(69, 69, 69);
+}
+.contant-section .inner .box-section{
+    display: flex;
+}
+.contant-section .inner .box-section .flex-box{
+    width: 100%;
+    padding: 30px 100px;
+    text-align: left;
+}
+.contant-section .inner .box-section .flex-box h3{
+    font-size: 20px;
+    color: rgb(69, 69, 69);
+    font-weight: 400;
+    font-family: 'Bodoni Moda',serif;
+}
+.contant-section .inner .box-section .flex-box p{
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(69, 69, 69);
+}
+/* blog section */
+
+.blog-section{
+    width: 100%;
+    background-color: #fff;
+}
+.blog-section .inner{
+    width: 1200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.blog-section .inner .text-box{
+    width: 40%;
+    padding: 0 30px;
+}
+.blog-section .inner .text-box h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(69, 69, 69);
+    font-family: 'Bodoni Moda',serif;
+    padding: 40px 0;
+}
+.blog-section .inner .text-box p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    color: rgb(69, 69, 69);
+}
+.blog-section .inner .text-box .btn{
+    width: 140px;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 16px;
+    background-color: rgb(69, 69, 69);
+    border: none;
+}
+.blog-section .inner .text-box .btn a{
+    color: #fff;
+    font-family: 'Bodoni Moda',serif;
+    text-decoration: none;
+}
+.blog-section .inner .image-box{
+    width: 40%;
+    height: auto;
+}
+.blog-section .inner .image-box img{
+    width: 100%;
+    height: 100%;
+}
+/* about section */
+
+.about{
+    width: 100%;
+    background-color: #FFF5F5;
+}
+.about .inner{
+    width: 1200px;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.about .inner .image-box{
+    width: 35%;
+    height: 65vh;
+
+}
+.about .inner .image-box img{
+    width: 100%;
+    padding: 90px;
+}
+.about .inner .text-box{
+    width: 50%;
+    padding-left: 50px;
+}
+.about .inner .text-box p{
+    font-size: 15px;
+    padding-bottom: 30px;
+    line-height: 20px;
+    color: rgb(69, 69, 69);
+}
+.about .inner .text-box h5{
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgb(69, 69, 69);
+}
+.about .inner .text-box h6{
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 5px;
+    font-weight: 500;
+    color: rgb(69, 69, 69);
+}
+
+ /* carousel section */
+
+ html,
+ body {
+   position: relative;
+   height: 100%;
+ }
+
+ body {
+
+   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   color: #000;
+   margin: 0;
+   padding: 0;
+ }
+
+ .swiper {
+   width: 90%;
+   height: 60%;
+   padding-top: 10vh;
+ }
+
+
+ .swiper-slide {
+   text-align: center;
+   font-size: 18px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+ .swiper-slide img {
+   display: block;
+   width: 90%;
+   height: 80%;
+   padding-bottom: 30px;  
+ }
+
+/* social icon */
+.socail-icons{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+}
+.socail-icons .fa-brands{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.socail-icons a{
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
